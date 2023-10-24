@@ -62,10 +62,7 @@ def draw():
     trtl.right(180)
     triangle(trtl, 100, colors[1])
 
-    trtl.right(45)
-    trtl.forward(100)
-
-    triangle(trtl, 100, colors[1])
+    trtl.left(45)
 
     for i in range(9, 0, -1):
         circle(trtl, 10*i, colors[i])
